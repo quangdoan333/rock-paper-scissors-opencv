@@ -18,6 +18,11 @@ The project is cleanly modularized into the following files:
    ```bash
    pip install opencv-python mediapipe numpy
 
+## Run
+   ```bash
+   python main.py
+   ```
+
 ## How to Play
 
 1. **Main Menu:**
