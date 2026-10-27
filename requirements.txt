@@ -1,0 +1,5 @@
+# Python Version Requirement: Python 3.13+
+
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
