@@ -13,10 +13,18 @@ The project is cleanly modularized into the following files:
 ## Installation
 
 1. Make sure you have **Python** installed on your system.
-2. Place all four files (`config.py`, `gesture.py`, `ui.py`, and `main.py`) in the same directory.
+2. Clone or download all repository files (`config.py`, `gesture.py`, `ui.py`, `main.py`, and `requirements.txt`) into the same directory.
 3. Install the required dependencies using `pip`:
    ```bash
    pip install opencv-python mediapipe numpy
+   pip install -r requirements.txt
+4. *(Optional but recommended)* Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
 
 ## Run
    ```bash
