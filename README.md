@@ -17,3 +17,26 @@ The project is cleanly modularized into the following files:
 3. Install the required dependencies using `pip`:
    ```bash
    pip install opencv-python mediapipe numpy
+
+## How to Play
+
+1. **Main Menu:**
+   - Press **ENTER** or click **START** to enter the game.
+   - Press **H** or click **HOW TO PLAY** to view instructions.
+
+2. **During the Game:**
+   - Position one hand clearly in front of the webcam with your palm facing the camera.
+   - Press **SPACE** to start a new round (3-2-1 countdown).
+   - When the countdown hits 0, your gesture is locked and the computer chooses randomly.
+   - The first player to win **3 rounds** wins the match.
+  
+## Keyboard Controls & Shortcuts
+
+| Key / Control | Action |
+| :--- | :--- |
+| **SPACE** | Start a new round (during IDLE state) |
+| **R** | Restart the game / score |
+| **M** | Return to the main menu |
+| **Q** | Quit the game |
+| **H** | Open the instruction guide (from the menu) |
+| **ENTER** | Start the game (from the menu) |
